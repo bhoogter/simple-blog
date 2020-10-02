@@ -6,5 +6,5 @@
   ],
   "map": [ {"src" : ""} ],
   "directories" : [ "src" ],
-  "output": "zobject.phar"
+  "output": "simple-blog.phar"
 }

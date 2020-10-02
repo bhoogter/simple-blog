@@ -7,19 +7,7 @@ if (strpos(__FILE__, ".phar") === false) {
     dependency_manager(__DIR__ . "/dependencies.xml", __DIR__ . "/phars/");
 }
 
-require_once("zobject-access.php");
-require_once("zobject-bench.php");
-require_once("zobject-source-check.php");
-require_once("zobject-format.php");
-require_once("zobject-validation.php");
-
-
-
-spl_autoload_register(function ($name) {
-    $d = (strpos(__FILE__, ".phar") === false ? __DIR__ : "phar://" . __FILE__ . "/src");
-
-    if (file_exists("$d" . DIRECTORY_SEPARATOR . "$name.php")) require_once("$d" . DIRECTORY_SEPARATOR . "$name.php");
-    else if (file_exists("$d" . DIRECTORY_SEPARATOR . "$name.php")) require_once("$d" . DIRECTORY_SEPARATOR . "$name.php");
-});
+require_once("sbs.php");
+require_once("sbs_feedload.php");
 
 __HALT_COMPILER();

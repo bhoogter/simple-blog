@@ -1,6 +1,6 @@
 {
-  "name": "bhoogter/zobject",
-  "description": "ZObject",
+  "name": "bhoogter/simple-blog",
+  "description": "Simple Blog",
   "authors": [
     {
       "name": "Benjamin Hoogterp",
@@ -10,7 +10,7 @@
   "keywords": [
     "xml"
   ],
-  "homepage": "http://www.github.com/bhoogter/zobject",
+  "homepage": "http://www.github.com/bhoogter/simple-blog",
   "license": "LGPL v3",
   "autoload": {
     "classmap": [
