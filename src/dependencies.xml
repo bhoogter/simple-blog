@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+
+<modules>
+    <module>
+        <dependencies>
+            <dependency group="bhoogter" name="php-hook" version="1.0.0" />
+            <dependency group="bhoogter" name="querystring" version="1.0.0" />
+            <dependency group="bhoogter" name="xml-file" version="0.2.82" />
+            <dependency group="bhoogter" name="xml-modules" version="0.1.13" />
+        </dependencies>
+    </module>
+</modules>
