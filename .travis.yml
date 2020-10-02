@@ -14,12 +14,10 @@ before_deploy:
 - composer install --prefer-dist --no-dev --no-interaction
 - php box.phar build
 deploy:
-  overrwrite: true
   provider: releases
   api_key:
-    secure: pxN6bXMClAX9s3A9AWt/fF9yVhelTjdu/UVkYPrcXP3LVuu6PuZ+hVpzYBIu9okUTOeD4i4UYzieh8AZlEr2tVLATwzD4rxnpg0oUWCTZwUbkuNE3FzykE+FUhaY0wXTMZiB3BvltONFIby+1P4RrADBbAjX0dc2tBJJQ7vaaqdfvkUE5fYBwjhYB561jKXnpM+tah2OP75OLFDpC5nUhjms26kXtspahZvwSMVnu8LDZ/A2Lcw5KnclYCiIC6eSMPx+XnIuRL0HW4erR4C3cxyw/oIhIDN51f7JULq2U7jyEYxaUIoCjZSJd5F5AhWfhWnXfbgjXJ74ZNUuUuEsJx+1x+32MKou6bbAbVE58j6VxvydeMLAwcAfJm8/TH6WKUbsK+EAODBDxE9OUbqoEvinY2GcFhy6YU171pZG0K+PffvXrawaFj/B6l8kInw9wnc3kHRGUJCNP+m873/V/Mm8CXuiq6Xb9Ml/qmXRlTXWINzIsgFkcvIwo+sDtQ/R7agi3mG66ex+SmLcvJPJdEIxIahAfMGy2VDSHPkNY5RR1RfFWQOn58OQ1b75l0WZbXINfyOxIQH6xyrwVFgpWrFSLeyTbRKIIodpcNmwOveCxh29dr2YJgn0LXk4otovpi2rhstOd/DyuXKONxWSDDqsQEcByhpYYn4y+bPaAEM=
-  file: zobject.phar
+    secure: jhBryRAh2+J0kbj7VSyXZXBBLQPJR61YqvcUe8sjM4jS80tGwLA5OD++/jfdX5sCdqFu6wtWyM3gmI+/Lr54pB0HqLzvq/nt3vqF9evkTszH3OV7J000rK2f9m62uRkqBzek7hOqTg/77x4V5oLyQ/cVkL09mUt35eWi+5QGB4zYy2SMzQihtbmwA6EBoyFirUumlK10V+n8zk+QZtwMNK4P8zwLzQ7qdIqprJ0mPnVniYnSS1mn5TXNFgtvQbjbRkipSbvDAKs8vrtLshX7frXOGS2fDJQ5UP1xYRcX/0+KwHbg0/8I4OWSUqZL9+imTDF2wK4IaWDQ/KOOVNjM1MeEp1YVZaB5gcIMvKIlA6BCeuVuJEuuByoOmF+ouin+vDMrDrZQJWx5Ov2IaVRcYEEdVKGSIpKz3W3nmX5KQuGGvluAOk4u3Utg00wJz4WsKFEjoejIIE4knDhCj9hbk+mDbAUjlyuRKMa5AkxJA2JwR5PL7dli2eN9+PhR17vYtbvel8y8vKQrdfkr5BWaUZpHLLihL50J3TL4kSG0TzGu6UOsZLaW5kVbliTf2BSZ/mhfK+rwZsPcdItUxq9gpxAPkDr9qt7ziNd4EBePazAjE8WfbOghea4wOSoN4nPpEhQmuaYUyJoJn6nrYFVSyQO+Syj+U4wpLg2Ccc0bVRA=
+  file: simple-blog.phar
   on:
-    repo: bhoogter/zobject
-    tags: true
+    repo: bhoogter/simple-blog
   skip_cleanup: 'true'
