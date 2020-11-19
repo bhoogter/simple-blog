@@ -20,6 +20,7 @@
 
         <header name='og:type' type='meta' content='website' />
 
+<!--
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="IHOP Network" />
 <meta property="og:title" content="Blog" />
@@ -28,7 +29,7 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:image" content="http://www.ihopnetwork.com/wp-content/plugins/hopdb/images/usmap.gif" />
 <meta property="og:image:type" content="image/gif" />
-
+-->
 
         <file id='sbs' type='php' src='sbs.php' mode='startup' />
         <file id='sbs_feedload' type='php' src='sbs_feedload.php' mode='startup' />
